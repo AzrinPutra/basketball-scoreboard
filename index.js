@@ -34,6 +34,8 @@ function add3g() {
 }
 
 function reset() {
+    guestScore = 0
+    homeScore = 0
     homescore.textContent = 0
     guestscore.textContent = 0
 }
